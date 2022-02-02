@@ -1,0 +1,178 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 12%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+
+h2 {
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    color: gray;
+}
+
+/* Navigation Brand */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+/* Heading & Download Buttons */
+
+.heading-text {
+    font-size: 3rem;
+    font-weight: 950;
+    line-height: 1.5;
+}
+
+.heading {
+    margin-top: 100px;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* Title Image */
+
+#iphone {
+    transform: rotate(25deg);
+    margin-left: 7%;
+    position: absolute;
+}
+
+/* Features */
+
+
+#features {
+    padding: 3% 15% 5%;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    background-color: white;
+}
+
+.feature {
+    padding: 7%;
+}
+
+.feature-images {
+    border-radius: 90deg;
+    color: #f35e4acc;
+    padding: 45px;
+}
+
+.feature-images:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials  */
+
+#testimonials {
+    background-color: #f35e4acc;
+    text-align: center;
+    color: white;
+}
+
+.testi-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+#press {
+    background-color: #f35e4acc;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.press-logo {
+    width: 7%;
+    margin: 15px 40px 70px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    text-align: center;
+    padding: 7%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10% 0 5%;
+}
+
+.cta-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: bolder;
+    padding: 0 0 3%;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icons {
+    margin: 7% 2% 4%;
+}
+
+/* Media Breakpoint */
+
+@media (max-width: 1000px) {
+    #title {
+        text-align: center;
+    }
+
+    #iphone {
+        position: static;
+        transform: rotate(0);
+    }
+}
