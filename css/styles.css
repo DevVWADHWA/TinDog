@@ -107,6 +107,7 @@ p {
     background-color: #f35e4acc;
     text-align: center;
     color: white;
+    border: none;
 }
 
 .testi-image {
@@ -118,6 +119,7 @@ p {
     background-color: #f35e4acc;
     text-align: center;
     padding-top: 7%;
+    border: none;
 }
 
 .press-logo {
