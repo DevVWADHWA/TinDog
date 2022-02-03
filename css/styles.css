@@ -107,7 +107,7 @@ p {
     background-color: #f35e4acc;
     text-align: center;
     color: white;
-    border: none;
+    border: none 0px;
 }
 
 .testi-image {
@@ -119,7 +119,7 @@ p {
     background-color: #f35e4acc;
     text-align: center;
     padding-top: 7%;
-    border: none;
+    border: none 0px;
     position: relative;
     z-index: -1;
 }
