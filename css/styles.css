@@ -120,6 +120,8 @@ p {
     text-align: center;
     padding-top: 7%;
     border: none;
+    position: relative;
+    z-index: -1;
 }
 
 .press-logo {
