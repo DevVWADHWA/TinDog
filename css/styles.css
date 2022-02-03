@@ -11,19 +11,27 @@ body {
     padding: 3% 15% 12%;
 }
 
+/* Headings */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat';
     font-weight: bold;
 }
 
+.heading-text {
+    font-size: 3rem;
+    font-weight: 950;
+    line-height: 1.5;
+}
 
-h2 {
+.section-heading {
     font-size: 2.2rem;
     line-height: 1.5;
 }
 
-h3 {
+.small-heading {
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 p {
@@ -54,11 +62,6 @@ p {
 
 /* Heading & Download Buttons */
 
-.heading-text {
-    font-size: 3rem;
-    font-weight: 950;
-    line-height: 1.5;
-}
 
 .heading {
     margin-top: 100px;
@@ -145,16 +148,8 @@ p {
 #cta {
     background-color: #ff4c68;
     text-align: center;
-    padding: 10% 0 5%;
-}
-
-.cta-text {
-    font-size: 2.5rem;
-    line-height: 1.5;
-    font-family: 'Montserrat';
     color: white;
-    font-weight: bolder;
-    padding: 0 0 3%;
+    padding: 10% 0 5%;
 }
 
 /* Footer */
